@@ -1,0 +1,33 @@
+body {
+    background-color: cyan;
+}
+
+#nome_principal {
+    text-decoration: underline;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.centro_pagina {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a[href="mailto:joaosilva.2001@alunos.utfpr.edu.br"] {
+    background-color: rgba(0, 255, 0, 0.33);
+}
+
+a[href="http://lattes.cnpq.br/7145473785124239"]{
+    background-color: rgba(0, 0, 255, 0.33);
+}
+
+a:hover {
+    color: red;
+}
+
+* {
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
